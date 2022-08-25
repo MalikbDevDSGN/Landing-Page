@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;300&family=Oleo+Script+Swash+Caps&family=Tiro+Gurmukhi&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#FF6663;
+}
+
+
+/* Navigation styling */
+
+nav{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 245, 245, 0.604);
+    overflow: hidden;
+    
+   
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    border-radius: 0.5rem;
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    color: #4D6A6D;
+}
+
+nav li:hover{
+      
+    text-decoration:underline;
+    font-size: x-large;
+
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+/* Heading */
+
+.headerText{
+    color:#4D6A6D;
+    font-family:'Oleo Script Swash Caps', cursive; ;
+    margin: 150px;
+    text-align: center;
+    font-size: 3rem;
+    border-radius: 2rem;
+    background-color: #CECFC7;
+}
+
+/* Section styling */
+.sectionContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sectionHeadings{
+    color: #4D6A6D;
+    font-family:'Kumbh Sans', sans-serif;
+    padding: 5px;
+    text-decoration: underline;
+
+}
+section{
+    
+    background-color: #CECFC7;
+    border-radius: 2em;
+    height: fit-content;
+    padding: 40px;
+    margin: 100px;
+   
+}
+
+
+
+section p{
+    font-family:'Tiro Gurmukhi', serif; 
+    line-height: 1.5;
+    font-size: medium;
+}
+
+.filler{
+    height: 500px;
+}
+
+/* Styles that are dynamic added with Javascript events */
+
+/* Active class will apply to the section once it gets to the top of the page */
+.active{
+    border:5px solid black;
+    background-color: whitesmoke;
+    
+}
+.bg-red{
+    background-color: red;
+}
+
+.Isactive{
+    
+    color: #FF6663;
+    font-size: x-large;
+}
+
